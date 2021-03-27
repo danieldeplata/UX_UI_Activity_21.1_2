@@ -1,0 +1,16 @@
+/* Nav */
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+
+/* Homepage */
+
+.jumbotron {
+    background-image: url(http://38.media.tumblr.com/780ac20a0d03fd0e97ab1582c7daa232/tumblr_n0z0jfwWcz1qza1qzo1_r1_500.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+}
