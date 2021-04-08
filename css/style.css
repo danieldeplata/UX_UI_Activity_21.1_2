@@ -1,3 +1,28 @@
+/* Font and General */
+
+@font-face {
+    font-family: Hanson Bold;
+    src: local("Hanson Bold"), local("Hanson Bold"), url(../fonts/Hanson-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    background-color: #000000;
+}
+
+.btn {
+    border: 1px solid #BDFF00 !important;
+    background-color: #BDFF00 !important;
+    color: #000000 !important;
+    transition: all .2s ease-in;
+}
+
+.btn:hover {
+    color: #FFFFFF !important;
+    transform: scale(1.2);
+}
+
+
 /* Nav */
 
 .nav-item {
@@ -6,11 +31,114 @@
     align-content: flex-end;
 }
 
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: #000000 !important;
+    background-size: cover;
+    z-index: 10;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.nav-item {
+    color: #ffffff !important;
+    font-family: Hanson Bold, sans-serif;
+    transition: all .2s ease-in;
+}
+
+.nav-item:hover {
+    color: #BDFF00 !important;
+    font-style: normal;
+    transform: scale(1.2);
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-family: Hanson Bold, sans-serif;
+}
+
+.card-nav {
+    width: auto;
+    height: fit-content;
+    background-color: #000000 !important;
+    border: 1px solid #BDFF00 !important;
+    color: #BDFF00 !important;
+}
+
+.card-nav li {
+    color: #BDFF00;
+    background-color: #000000;
+}
+
+.mini-nav {
+    color: #BDFF00 !important;
+    background-color: #000000 !important;
+    transition: all .2s ease-in;
+}
+
+.mini-nav:hover {
+    text-decoration: none;
+    color: #FFFFFF !important;
+}
+
+.card {
+    margin-bottom: 50px;
+}
+
 
 /* Homepage */
 
 .jumbotron {
-    background-image: url(http://38.media.tumblr.com/780ac20a0d03fd0e97ab1582c7daa232/tumblr_n0z0jfwWcz1qza1qzo1_r1_500.gif);
+    background-image: url(../images/hero-image.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-size: cover;
+    width: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumboCopy {
+    color: white;
+}
+
+.jumbotron h1 {
+    color: #BDFF00;
+    font-family: Hanson Bold, sans-serif;
+}
+
+.jumbotron a {
+    border: 1px solid #BDFF00 !important;
+    background-color: #BDFF00 !important;
+    color: #000000 !important;
+    transition: all .2s ease-in;
+}
+
+.jumbotron a:hover {
+    color: #ffffff !important;
+    transform: scale(1.1);
+}
+
+
+/* Content */
+
+.tablesHeader {
+    padding-top: 80px;
+}
+
+.headerTitle {
+    color: #BDFF00;
+    font-family: Hanson Bold, sans-serif;
+    margin-left: 150px;
+}
+
+.headerContent {
+    color: #FFFFFF;
+    margin-left: 150px;
+    margin-bottom: 50px;
 }
